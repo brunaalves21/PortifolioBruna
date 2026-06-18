@@ -206,4 +206,32 @@ if (contactForm) {
     }
   });
 }
+/* ============================================
+   SCROLL REVEAL — Animação fade-in ao scroll
+   ============================================ */
+const revealElements = document.querySelectorAll(
+  '.section__title, .hero__content, .hero__visual, .hero__terminal, ' +
+  '.about__content, .about__cards, .skill-card, .project-card, ' +
+  '.contact__form, .contact__social, .extra-card, .widget-spotify, ' +
+  '.projects__cta, .extra__subtitle'
+);
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.1,
+  rootMargin: '0px 0px -40px 0px'
+});
+
+revealElements.forEach(el => {
+  el.classList.add('reveal');
+  revealObserver.observe(el);
+});
+
+
 
