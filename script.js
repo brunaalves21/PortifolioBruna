@@ -232,6 +232,18 @@ revealElements.forEach(el => {
   el.classList.add('reveal');
   revealObserver.observe(el);
 });
+/* ============================================
+   STAGGER — Atraso escalonado em cards
+   ============================================ */
+const skillCards = document.querySelectorAll('.skill-card');
+skillCards.forEach((card, index) => {
+  card.style.transitionDelay = `${index * 0.08}s`;
+});
+
+const projectCards = document.querySelectorAll('.project-card');
+projectCards.forEach((card, index) => {
+  card.style.transitionDelay = `${index * 0.08}s`;
+});
 
 
 
