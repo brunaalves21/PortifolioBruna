@@ -246,4 +246,3 @@ projectCards.forEach((card, index) => {
 });
 
 
-
