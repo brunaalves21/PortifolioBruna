@@ -647,3 +647,190 @@ ul {
   color: var(--text);
   line-height: 1.3;
 }
+/* ============================================
+   HABILIDADES
+   ============================================ */
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  transition: all var(--transition);
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  box-shadow: 0 8px 28px var(--primary-glow);
+}
+
+.skill-card__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--primary-light);
+}
+
+.skill-card__icon {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.skill-card__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.skill-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-card__list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+}
+
+.skill-card__list li svg {
+  color: var(--primary);
+  opacity: 0.6;
+  flex-shrink: 0;
+  transition: opacity var(--transition);
+}
+
+.skill-card:hover .skill-card__list li {
+  color: var(--text);
+}
+
+.skill-card:hover .skill-card__list li svg {
+  opacity: 1;
+}
+
+/* ============================================
+   PROJETOS
+   ============================================ */
+.projects {
+  background: var(--primary-light);
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--card);
+  transition: all var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: transparent;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+}
+
+.project-card__image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.project-card__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-card__placeholder {
+  transform: scale(1.08);
+}
+
+/* Gradientes de cada placeholder */
+.project-card__placeholder--1 {
+  background: linear-gradient(135deg, #FFE4E1 0%, #FFC0CB 50%, #FFDAB9 100%);
+}
+
+.project-card__placeholder--2 {
+  background: linear-gradient(135deg, #E0F7FA 0%, #B2EBF2 50%, #80DEEA 100%);
+}
+
+.project-card__placeholder--3 {
+  background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 50%, #CE93D8 100%);
+}
+
+.project-card__placeholder--4 {
+  background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 50%, #FFE082 100%);
+}
+
+.project-card__placeholder-icon {
+  font-size: 2.5rem;
+  opacity: 0.5;
+  transition: opacity var(--transition), transform var(--transition);
+}
+
+.project-card:hover .project-card__placeholder-icon {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.project-card__body {
+  padding: 24px;
+}
+
+.project-card__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.project-card__description {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 100px;
+  background: var(--primary-light);
+  border: 1px solid transparent;
+  color: var(--primary);
+}
+
+.project-card__actions {
+  display: flex;
+  gap: 12px;
+}
