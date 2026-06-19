@@ -1,135 +1,183 @@
 <div align="center">
-  <br/>
-  <img src="assets/images/profile.jpg" alt="Bruna Alves" width="120" style="border-radius: 50%;"/>
-  <br/>
-  <br/>
+
+<img src="css/assets/profile.jpg" alt="Bruna Alves" width="120"/>
 
 # 💜 Bruna Alves — Portfólio
 
-### Desenvolvedora Full Stack
-
-<br/>
+### Desenvolvedora Full Stack em transição de carreira, transformando curiosidade em código e construindo a carreira que escolhi para mim.
 
 [![GitHub](https://img.shields.io/badge/GitHub-brunaalves21-6D4AFF?style=for-the-badge&logo=github)](https://github.com/brunaalves21)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-em%20breve-6D4AFF?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![Deploy](https://img.shields.io/badge/Deploy-vercel-6D4AFF?style=for-the-badge&logo=vercel)](https://seu-link-deploy.vercel.app)
-
-<br/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bruna%20Alves-6D4AFF?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bruna-maria-alves-036ba568)
+[![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-6D4AFF?style=for-the-badge&logo=github)](https://brunaalves21.github.io/PortifolioBruna/)
 
 ---
 
 *"Construindo minha carreira uma linha de código por vez."*
 
----
-
-<br/>
 </div>
 
-## 📋 Descrição
+---
 
-Portfólio profissional de Bruna Alves, desenvolvedora Full Stack em transição de carreira. O projeto apresenta uma interface moderna, elegante e responsiva, construída com **HTML, CSS e JavaScript puros** — sem dependências externas de frameworks ou bibliotecas.
+# 📋 Descrição
 
-O design foi inspirado em referências como **Linear, Vercel, GitHub e Notion**, combinando uma paleta roxa sofisticada com microinterações suaves, tipografia Poppins e muito espaço em branco para uma experiência visual clean e profissional.
+Este portfólio representa minha jornada na tecnologia: uma transição de carreira guiada pela curiosidade, disciplina e vontade de construir algo significativo.
 
-## ✨ Funcionalidades
+Desenvolvido do zero utilizando apenas **HTML, CSS e JavaScript puros**, ele reúne projetos, habilidades e experiências que refletem meu crescimento como desenvolvedora Full Stack. Mais do que uma coleção de trabalhos, este projeto simboliza minha evolução técnica, minha atenção aos detalhes e a certeza de que nunca é tarde para recomeçar e construir novos caminhos.
 
-- **Design responsivo** — adaptado para dispositivos de 320px a 1920px
-- **Navegação com glassmorphism** — navbar fixa com efeito vidro ao scroll
-- **Hero com blob animado** — foto em formato orgânico com morphing CSS
-- **Card terminal flutuante** — informações da desenvolvedora em estilo código
-- **Formulário de contato funcional** — integração com Formspree + validação JS
-- **Animações suaves** — fade-in ao scroll com IntersectionObserver
-- **Seções semânticas** — HTML estruturado com header, nav, main, section, article, aside, footer
-- **CSS Variables** — tema centralizado para fácil manutenção e futura implementação de dark mode
+O design foi inspirado em referências como **Linear, Vercel, GitHub e Notion**, combinando uma paleta roxa sofisticada, tipografia limpa e microinterações suaves para proporcionar uma experiência visual elegante, moderna e profissional.
 
-## 🛠️ Tecnologias
+---
+
+# ✨ Funcionalidades
+
+- ✅ Design totalmente responsivo (320px até 1920px)
+- ✅ Navbar fixa com efeito Glassmorphism
+- ✅ Hero Section com blob animado em CSS
+- ✅ Card terminal flutuante com informações da desenvolvedora
+- ✅ Menu mobile interativo
+- ✅ Scroll suave entre as seções
+- ✅ Destaque automático do link ativo da navegação
+- ✅ Animações de entrada utilizando IntersectionObserver
+- ✅ Microinterações e efeitos hover
+- ✅ Formulário de contato funcional com validação JavaScript
+- ✅ Integração com Formspree
+- ✅ HTML semântico e código organizado
+- ✅ Estrutura preparada para futura implementação de Dark Mode
+
+---
+
+# 🛠️ Tecnologias Utilizadas
 
 | Tecnologia | Finalidade |
 |---|---|
-| **HTML5** | Estrutura semântica do documento |
-| **CSS3** | Estilização, animações (`@keyframes`, `transition`), design responsivo |
-| **JavaScript (Vanilla)** | Interatividade, validação de formulário, scroll reveal, integração Formspree |
-| **Formspree** | Envio de mensagens do formulário de contato |
-| **Google Fonts** | Tipografia Poppins |
+| HTML5 | Estrutura semântica |
+| CSS3 | Estilização, Grid, Flexbox, responsividade e animações |
+| JavaScript (Vanilla) | Interatividade e manipulação do DOM |
+| Formspree | Envio do formulário de contato |
+| Google Fonts | Tipografia Poppins |
+| Git & GitHub | Controle de versão |
+| GitHub Pages | Deploy da aplicação |
 
-## 🚀 Status do Projeto
+---
 
-**✅ Finalizado** — Projeto concluído e pronto para deploy.
+# 🚀 Status do Projeto
 
-## 📂 Estrutura de Pastas
+## ✅ Em constante evolução.
 
-```
-portifolio/
-├── assets/
-│   └── images/
-│       └── profile.jpg
+Assim como minha trajetória na tecnologia, este portfólio continuará recebendo melhorias, novos projetos e aprendizados ao longo da minha carreira.
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+PortifolioBruna/
 ├── css/
-│   └── style.css
+│   ├── style.css
+│   └── assets/
+│       └── profile.jpg
 ├── js/
 │   └── script.js
 ├── index.html
 └── README.md
 ```
 
-## ▶️ Instruções para Execução Local
+---
 
-1. **Clone o repositório:**
+# ▶️ Como executar localmente
 
-```bash
-git clone https://github.com/brunaalves21/portifolio.git
-```
-
-2. **Acesse a pasta do projeto:**
+### 1. Clone o repositório
 
 ```bash
-cd portifolio
+git clone https://github.com/brunaalves21/PortifolioBruna.git
 ```
 
-3. **Abra o arquivo `index.html` no navegador:**
+### 2. Entre na pasta do projeto
 
-   - **Opção 1:** Clique duas vezes no arquivo `index.html`
-   - **Opção 2:** Utilize a extensão Live Server no VS Code para um servidor local com recarregamento automático
+```bash
+cd PortifolioBruna
+```
 
-4. **(Opcional) Configure o Formspree:**
+### 3. Execute o projeto
 
-   No arquivo `index.html`, localize a tag `<form>` e substitua o valor do atributo `action` pelo seu endpoint do Formspree:
+Você pode:
+
+- Abrir o arquivo `index.html` diretamente no navegador;
+
+ou
+
+- Utilizar a extensão **Live Server** no VS Code para uma melhor experiência durante o desenvolvimento.
+
+---
+
+# 📬 Configurando o Formspree (Opcional)
+
+Caso queira utilizar seu próprio formulário:
+
+Localize a tag `<form>` no arquivo `index.html` e substitua o atributo `action` pelo seu endpoint do Formspree.
+
+Exemplo:
 
 ```html
 <form
   class="contact__form"
   id="contact-form"
-  action="https://formspree.io/f/SEU-ID-AQUI"
+  action="https://formspree.io/f/SEU-ID"
   method="POST"
   novalidate
 >
 ```
 
-> 💡 Crie uma conta gratuita em [formspree.io](https://formspree.io) para obter seu endpoint.
+Crie gratuitamente sua conta em:
 
-## 📸 Prints do Projeto
+https://formspree.io
+
+---
+
+# 💭 Sobre este projeto
+
+Este foi um dos primeiros projetos que desenvolvi inteiramente do zero utilizando tecnologias nativas da web.
+
+Além do código, ele representa minha evolução técnica, minha dedicação aos estudos e minha capacidade de aprender, adaptar e persistir diante dos desafios. Cada detalhe deste portfólio foi pensado para transmitir quem eu sou hoje e quem estou me tornando como profissional da tecnologia.
+
+---
+
+# 📸 Prints do Projeto
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| *[Adicionar print]* | *[Adicionar print]* | *[Adicionar print]* |
+| ![](assets/screenshots/desktop.png) | ![](assets/screenshots/tablet.png) | ![](assets/screenshots/mobile.png) |
 
-> 🖼️ **Nota:** Adicione capturas de tela do projeto nos espaços acima.
+---
 
-## 🔗 Links
+# 🔗 Links
 
-- **📁 Repositório:** [github.com/brunaalves21/portifolio](https://github.com/brunaalves21/portifolio)
-- **🌐 Deploy:** [seu-link-deploy.vercel.app](https://seu-link-deploy.vercel.app)
-- **🎨 Protótipo (Figma):** [Adicionar link do Figma](https://figma.com)
+### 📁 Repositório
 
-## 📬 Contato
+https://github.com/brunaalves21/PortifolioBruna
 
-- **GitHub:** [@brunaalves21](https://github.com/brunaalves21)
-- **E-mail:** *[Adicionar e-mail]*
-- **LinkedIn:** *[Adicionar LinkedIn]*
+### 🌐 Aplicação Online
+
+https://brunaalves21.github.io/PortifolioBruna/
+
+### 🎨 Protótipo no Figma
+
+https://www.figma.com/make/zz6gDMa1uEB9E9PQEyeF1n/Redesign-de-Portf%C3%B3lio-Pessoal?fullscreen=1&t=ngrGsHWOrJp8tWqx-1&code-node-id=0-9
+
+---
+
+# 📬 Contato
+
+- GitHub: https://github.com/brunaalves21
+- LinkedIn: https://www.linkedin.com/in/bruna-maria-alves-036ba568
+- E-mail: brunaalves2107@gmail.com
 
 ---
 
 <div align="center">
-  <br/>
-  <p>Feito com muito café, curiosidade e algumas tentativas até dar certo. ☕💜</p>
-  <br/>
+
+### ☕ Feito com muito café, curiosidade e coragem para recomeçar quantas vezes fossem necessárias.
+
+**Bruna Alves • 2026**
+
 </div>
