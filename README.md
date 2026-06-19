@@ -24,9 +24,7 @@ Este portfólio representa minha jornada na tecnologia: uma transição de carre
 
 Desenvolvido do zero utilizando apenas **HTML, CSS e JavaScript puros**, ele reúne projetos, habilidades e experiências que refletem meu crescimento como desenvolvedora Full Stack. Mais do que uma coleção de trabalhos, este projeto simboliza minha evolução técnica, minha atenção aos detalhes e a certeza de que nunca é tarde para recomeçar e construir novos caminhos.
 
-O design foi inspirado em referências como **Linear, Vercel, GitHub e Notion**, combinando uma paleta roxa sofisticada, tipografia limpa e microinterações suaves para proporcionar uma experiência visual elegante, moderna e profissional.
 
----
 
 # ✨ Funcionalidades
 
